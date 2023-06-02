@@ -1,0 +1,315 @@
+2022-04-12 12:22:42 INFO  deprecation:1173 - session.id is deprecated. Instead, use dfs.metrics.session-id
+2022-04-12 12:22:42 INFO  JvmMetrics:76 - Initializing JVM Metrics with processName=JobTracker, sessionId=
+2022-04-12 12:22:43 WARN  JobResourceUploader:64 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2022-04-12 12:22:43 WARN  JobResourceUploader:171 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2022-04-12 12:22:43 INFO  FileInputFormat:283 - Total input paths to process : 1
+2022-04-12 12:22:43 INFO  JobSubmitter:198 - number of splits:1
+2022-04-12 12:22:43 INFO  JobSubmitter:287 - Submitting tokens for job: job_local1745944396_0001
+2022-04-12 12:22:44 INFO  Job:1294 - The url to track the job: http://localhost:8080/
+2022-04-12 12:22:44 INFO  Job:1339 - Running job: job_local1745944396_0001
+2022-04-12 12:22:44 INFO  LocalJobRunner:471 - OutputCommitter set in config null
+2022-04-12 12:22:44 INFO  FileOutputCommitter:100 - File Output Committer Algorithm version is 1
+2022-04-12 12:22:44 INFO  LocalJobRunner:489 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2022-04-12 12:22:44 INFO  LocalJobRunner:448 - Waiting for map tasks
+2022-04-12 12:22:44 INFO  LocalJobRunner:224 - Starting task: attempt_local1745944396_0001_m_000000_0
+2022-04-12 12:22:44 INFO  FileOutputCommitter:100 - File Output Committer Algorithm version is 1
+2022-04-12 12:22:44 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2022-04-12 12:22:44 INFO  Task:612 -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@2509c4ec
+2022-04-12 12:22:44 INFO  MapTask:756 - Processing split: file:/D:/Hadoop/Max_Hauteur/src/main/resources/input/arbres.csv:0+16855
+2022-04-12 12:22:44 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2022-04-12 12:22:44 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2022-04-12 12:22:44 INFO  MapTask:999 - soft limit at 83886080
+2022-04-12 12:22:44 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2022-04-12 12:22:44 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2022-04-12 12:22:44 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2022-04-12 12:22:44 INFO  LocalJobRunner:591 - 
+2022-04-12 12:22:44 INFO  MapTask:1460 - Starting flush of map output
+2022-04-12 12:22:44 INFO  MapTask:1482 - Spilling map output
+2022-04-12 12:22:44 INFO  MapTask:1483 - bufstart = 0; bufend = 1625; bufvoid = 104857600
+2022-04-12 12:22:44 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 26214008(104856032); length = 389/6553600
+2022-04-12 12:22:44 INFO  MapTask:1667 - Finished spill 0
+2022-04-12 12:22:44 INFO  Task:1038 - Task:attempt_local1745944396_0001_m_000000_0 is done. And is in the process of committing
+2022-04-12 12:22:44 INFO  LocalJobRunner:591 - map
+2022-04-12 12:22:44 INFO  Task:1158 - Task 'attempt_local1745944396_0001_m_000000_0' done.
+2022-04-12 12:22:44 INFO  LocalJobRunner:249 - Finishing task: attempt_local1745944396_0001_m_000000_0
+2022-04-12 12:22:44 INFO  LocalJobRunner:456 - map task executor complete.
+2022-04-12 12:22:44 INFO  LocalJobRunner:448 - Waiting for reduce tasks
+2022-04-12 12:22:44 INFO  LocalJobRunner:302 - Starting task: attempt_local1745944396_0001_r_000000_0
+2022-04-12 12:22:44 INFO  FileOutputCommitter:100 - File Output Committer Algorithm version is 1
+2022-04-12 12:22:44 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2022-04-12 12:22:44 INFO  Task:612 -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@7b128b52
+2022-04-12 12:22:44 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@60c771a4
+2022-04-12 12:22:44 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=1291845632, maxSingleShuffleLimit=322961408, mergeThreshold=852618176, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2022-04-12 12:22:44 INFO  EventFetcher:61 - attempt_local1745944396_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2022-04-12 12:22:44 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1745944396_0001_m_000000_0 decomp: 695 len: 699 to MEMORY
+2022-04-12 12:22:44 INFO  InMemoryMapOutput:100 - Read 695 bytes from map-output for attempt_local1745944396_0001_m_000000_0
+2022-04-12 12:22:44 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 695, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->695
+2022-04-12 12:22:44 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2022-04-12 12:22:44 INFO  LocalJobRunner:591 - 1 / 1 copied.
+2022-04-12 12:22:44 INFO  MergeManagerImpl:687 - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2022-04-12 12:22:44 INFO  Merger:606 - Merging 1 sorted segments
+2022-04-12 12:22:44 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 688 bytes
+2022-04-12 12:22:44 INFO  MergeManagerImpl:754 - Merged 1 segments, 695 bytes to disk to satisfy reduce memory limit
+2022-04-12 12:22:44 INFO  MergeManagerImpl:784 - Merging 1 files, 699 bytes from disk
+2022-04-12 12:22:44 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2022-04-12 12:22:44 INFO  Merger:606 - Merging 1 sorted segments
+2022-04-12 12:22:44 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 688 bytes
+2022-04-12 12:22:44 INFO  LocalJobRunner:591 - 1 / 1 copied.
+2022-04-12 12:22:44 INFO  deprecation:1173 - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2022-04-12 12:22:44 INFO  Task:1038 - Task:attempt_local1745944396_0001_r_000000_0 is done. And is in the process of committing
+2022-04-12 12:22:44 INFO  LocalJobRunner:591 - 1 / 1 copied.
+2022-04-12 12:22:44 INFO  Task:1199 - Task attempt_local1745944396_0001_r_000000_0 is allowed to commit now
+2022-04-12 12:22:44 INFO  FileOutputCommitter:482 - Saved output of task 'attempt_local1745944396_0001_r_000000_0' to file:/D:/Hadoop/Max_Hauteur/src/main/resources/output/_temporary/0/task_local1745944396_0001_r_000000
+2022-04-12 12:22:44 INFO  LocalJobRunner:591 - reduce > reduce
+2022-04-12 12:22:44 INFO  Task:1158 - Task 'attempt_local1745944396_0001_r_000000_0' done.
+2022-04-12 12:22:44 INFO  LocalJobRunner:325 - Finishing task: attempt_local1745944396_0001_r_000000_0
+2022-04-12 12:22:44 INFO  LocalJobRunner:456 - reduce task executor complete.
+2022-04-12 12:22:45 INFO  Job:1360 - Job job_local1745944396_0001 running in uber mode : false
+2022-04-12 12:22:45 INFO  Job:1367 -  map 100% reduce 100%
+2022-04-12 12:22:45 INFO  Job:1378 - Job job_local1745944396_0001 completed successfully
+2022-04-12 12:22:45 INFO  Job:1385 - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=35508
+		FILE: Number of bytes written=563611
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=98
+		Map output records=98
+		Map output bytes=1625
+		Map output materialized bytes=699
+		Input split bytes=128
+		Combine input records=98
+		Combine output records=37
+		Reduce input groups=37
+		Reduce shuffle bytes=699
+		Reduce input records=37
+		Reduce output records=37
+		Spilled Records=74
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=460324864
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=16855
+	File Output Format Counters 
+		Bytes Written=518
+2022-04-30 15:23:15 INFO  deprecation:1173 - session.id is deprecated. Instead, use dfs.metrics.session-id
+2022-04-30 15:23:15 INFO  JvmMetrics:76 - Initializing JVM Metrics with processName=JobTracker, sessionId=
+2022-04-30 15:23:16 WARN  JobResourceUploader:64 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2022-04-30 15:23:16 WARN  JobResourceUploader:171 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2022-04-30 15:23:16 INFO  FileInputFormat:283 - Total input paths to process : 1
+2022-04-30 15:23:16 INFO  JobSubmitter:198 - number of splits:1
+2022-04-30 15:23:16 INFO  JobSubmitter:287 - Submitting tokens for job: job_local1448405174_0001
+2022-04-30 15:23:17 INFO  Job:1294 - The url to track the job: http://localhost:8080/
+2022-04-30 15:23:17 INFO  Job:1339 - Running job: job_local1448405174_0001
+2022-04-30 15:23:17 INFO  LocalJobRunner:471 - OutputCommitter set in config null
+2022-04-30 15:23:17 INFO  FileOutputCommitter:100 - File Output Committer Algorithm version is 1
+2022-04-30 15:23:17 INFO  LocalJobRunner:489 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2022-04-30 15:23:17 INFO  LocalJobRunner:448 - Waiting for map tasks
+2022-04-30 15:23:17 INFO  LocalJobRunner:224 - Starting task: attempt_local1448405174_0001_m_000000_0
+2022-04-30 15:23:17 INFO  FileOutputCommitter:100 - File Output Committer Algorithm version is 1
+2022-04-30 15:23:17 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2022-04-30 15:23:17 INFO  Task:612 -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@2509c4ec
+2022-04-30 15:23:17 INFO  MapTask:756 - Processing split: file:/D:/Hadoop/Max_Hauteur/src/main/resources/input/arbres.csv:0+16855
+2022-04-30 15:23:17 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2022-04-30 15:23:17 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2022-04-30 15:23:17 INFO  MapTask:999 - soft limit at 83886080
+2022-04-30 15:23:17 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2022-04-30 15:23:17 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2022-04-30 15:23:17 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2022-04-30 15:23:17 INFO  LocalJobRunner:591 - 
+2022-04-30 15:23:17 INFO  MapTask:1460 - Starting flush of map output
+2022-04-30 15:23:17 INFO  MapTask:1482 - Spilling map output
+2022-04-30 15:23:17 INFO  MapTask:1483 - bufstart = 0; bufend = 1625; bufvoid = 104857600
+2022-04-30 15:23:17 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 26214008(104856032); length = 389/6553600
+2022-04-30 15:23:17 INFO  MapTask:1667 - Finished spill 0
+2022-04-30 15:23:17 INFO  Task:1038 - Task:attempt_local1448405174_0001_m_000000_0 is done. And is in the process of committing
+2022-04-30 15:23:17 INFO  LocalJobRunner:591 - map
+2022-04-30 15:23:17 INFO  Task:1158 - Task 'attempt_local1448405174_0001_m_000000_0' done.
+2022-04-30 15:23:17 INFO  LocalJobRunner:249 - Finishing task: attempt_local1448405174_0001_m_000000_0
+2022-04-30 15:23:17 INFO  LocalJobRunner:456 - map task executor complete.
+2022-04-30 15:23:17 INFO  LocalJobRunner:448 - Waiting for reduce tasks
+2022-04-30 15:23:17 INFO  LocalJobRunner:302 - Starting task: attempt_local1448405174_0001_r_000000_0
+2022-04-30 15:23:17 INFO  FileOutputCommitter:100 - File Output Committer Algorithm version is 1
+2022-04-30 15:23:17 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2022-04-30 15:23:17 INFO  Task:612 -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@7b128b52
+2022-04-30 15:23:17 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@60c771a4
+2022-04-30 15:23:17 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=1291845632, maxSingleShuffleLimit=322961408, mergeThreshold=852618176, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2022-04-30 15:23:17 INFO  EventFetcher:61 - attempt_local1448405174_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2022-04-30 15:23:17 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1448405174_0001_m_000000_0 decomp: 695 len: 699 to MEMORY
+2022-04-30 15:23:17 INFO  InMemoryMapOutput:100 - Read 695 bytes from map-output for attempt_local1448405174_0001_m_000000_0
+2022-04-30 15:23:17 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 695, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->695
+2022-04-30 15:23:17 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2022-04-30 15:23:17 INFO  LocalJobRunner:591 - 1 / 1 copied.
+2022-04-30 15:23:17 INFO  MergeManagerImpl:687 - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2022-04-30 15:23:17 INFO  Merger:606 - Merging 1 sorted segments
+2022-04-30 15:23:17 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 688 bytes
+2022-04-30 15:23:17 INFO  MergeManagerImpl:754 - Merged 1 segments, 695 bytes to disk to satisfy reduce memory limit
+2022-04-30 15:23:17 INFO  MergeManagerImpl:784 - Merging 1 files, 699 bytes from disk
+2022-04-30 15:23:17 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2022-04-30 15:23:17 INFO  Merger:606 - Merging 1 sorted segments
+2022-04-30 15:23:17 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 688 bytes
+2022-04-30 15:23:17 INFO  LocalJobRunner:591 - 1 / 1 copied.
+2022-04-30 15:23:17 INFO  deprecation:1173 - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2022-04-30 15:23:17 INFO  Task:1038 - Task:attempt_local1448405174_0001_r_000000_0 is done. And is in the process of committing
+2022-04-30 15:23:17 INFO  LocalJobRunner:591 - 1 / 1 copied.
+2022-04-30 15:23:17 INFO  Task:1199 - Task attempt_local1448405174_0001_r_000000_0 is allowed to commit now
+2022-04-30 15:23:17 INFO  FileOutputCommitter:482 - Saved output of task 'attempt_local1448405174_0001_r_000000_0' to file:/D:/Hadoop/Max_Hauteur/src/main/resources/output/_temporary/0/task_local1448405174_0001_r_000000
+2022-04-30 15:23:17 INFO  LocalJobRunner:591 - reduce > reduce
+2022-04-30 15:23:17 INFO  Task:1158 - Task 'attempt_local1448405174_0001_r_000000_0' done.
+2022-04-30 15:23:17 INFO  LocalJobRunner:325 - Finishing task: attempt_local1448405174_0001_r_000000_0
+2022-04-30 15:23:17 INFO  LocalJobRunner:456 - reduce task executor complete.
+2022-04-30 15:23:18 INFO  Job:1360 - Job job_local1448405174_0001 running in uber mode : false
+2022-04-30 15:23:18 INFO  Job:1367 -  map 100% reduce 100%
+2022-04-30 15:23:18 INFO  Job:1378 - Job job_local1448405174_0001 completed successfully
+2022-04-30 15:23:18 INFO  Job:1385 - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=35508
+		FILE: Number of bytes written=563571
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=98
+		Map output records=98
+		Map output bytes=1625
+		Map output materialized bytes=699
+		Input split bytes=128
+		Combine input records=98
+		Combine output records=37
+		Reduce input groups=37
+		Reduce shuffle bytes=699
+		Reduce input records=37
+		Reduce output records=37
+		Spilled Records=74
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=460324864
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=16855
+	File Output Format Counters 
+		Bytes Written=518
+2022-05-03 21:30:01 INFO  deprecation:1173 - session.id is deprecated. Instead, use dfs.metrics.session-id
+2022-05-03 21:30:01 INFO  JvmMetrics:76 - Initializing JVM Metrics with processName=JobTracker, sessionId=
+2022-05-03 21:30:02 WARN  JobResourceUploader:64 - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2022-05-03 21:30:02 WARN  JobResourceUploader:171 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2022-05-03 21:30:02 INFO  FileInputFormat:283 - Total input paths to process : 1
+2022-05-03 21:30:02 INFO  JobSubmitter:198 - number of splits:1
+2022-05-03 21:30:02 INFO  JobSubmitter:287 - Submitting tokens for job: job_local367735406_0001
+2022-05-03 21:30:03 INFO  Job:1294 - The url to track the job: http://localhost:8080/
+2022-05-03 21:30:03 INFO  Job:1339 - Running job: job_local367735406_0001
+2022-05-03 21:30:03 INFO  LocalJobRunner:471 - OutputCommitter set in config null
+2022-05-03 21:30:03 INFO  FileOutputCommitter:100 - File Output Committer Algorithm version is 1
+2022-05-03 21:30:03 INFO  LocalJobRunner:489 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2022-05-03 21:30:03 INFO  LocalJobRunner:448 - Waiting for map tasks
+2022-05-03 21:30:03 INFO  LocalJobRunner:224 - Starting task: attempt_local367735406_0001_m_000000_0
+2022-05-03 21:30:03 INFO  FileOutputCommitter:100 - File Output Committer Algorithm version is 1
+2022-05-03 21:30:03 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2022-05-03 21:30:03 INFO  Task:612 -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@5d479f69
+2022-05-03 21:30:03 INFO  MapTask:756 - Processing split: file:/D:/Hadoop/Max_Hauteur/src/main/resources/input/arbres.csv:0+16855
+2022-05-03 21:30:03 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2022-05-03 21:30:03 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2022-05-03 21:30:03 INFO  MapTask:999 - soft limit at 83886080
+2022-05-03 21:30:03 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2022-05-03 21:30:03 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2022-05-03 21:30:03 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2022-05-03 21:30:03 INFO  LocalJobRunner:591 - 
+2022-05-03 21:30:03 INFO  MapTask:1460 - Starting flush of map output
+2022-05-03 21:30:03 INFO  MapTask:1482 - Spilling map output
+2022-05-03 21:30:03 INFO  MapTask:1483 - bufstart = 0; bufend = 1611; bufvoid = 104857600
+2022-05-03 21:30:03 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 26214012(104856048); length = 385/6553600
+2022-05-03 21:30:03 INFO  MapTask:1667 - Finished spill 0
+2022-05-03 21:30:03 INFO  Task:1038 - Task:attempt_local367735406_0001_m_000000_0 is done. And is in the process of committing
+2022-05-03 21:30:03 INFO  LocalJobRunner:591 - map
+2022-05-03 21:30:03 INFO  Task:1158 - Task 'attempt_local367735406_0001_m_000000_0' done.
+2022-05-03 21:30:03 INFO  LocalJobRunner:249 - Finishing task: attempt_local367735406_0001_m_000000_0
+2022-05-03 21:30:03 INFO  LocalJobRunner:456 - map task executor complete.
+2022-05-03 21:30:03 INFO  LocalJobRunner:448 - Waiting for reduce tasks
+2022-05-03 21:30:03 INFO  LocalJobRunner:302 - Starting task: attempt_local367735406_0001_r_000000_0
+2022-05-03 21:30:03 INFO  FileOutputCommitter:100 - File Output Committer Algorithm version is 1
+2022-05-03 21:30:03 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2022-05-03 21:30:03 INFO  Task:612 -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@2dc00c99
+2022-05-03 21:30:03 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@36d5c6be
+2022-05-03 21:30:03 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=1291845632, maxSingleShuffleLimit=322961408, mergeThreshold=852618176, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2022-05-03 21:30:03 INFO  EventFetcher:61 - attempt_local367735406_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2022-05-03 21:30:03 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local367735406_0001_m_000000_0 decomp: 679 len: 683 to MEMORY
+2022-05-03 21:30:03 INFO  InMemoryMapOutput:100 - Read 679 bytes from map-output for attempt_local367735406_0001_m_000000_0
+2022-05-03 21:30:03 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 679, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->679
+2022-05-03 21:30:03 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2022-05-03 21:30:03 INFO  LocalJobRunner:591 - 1 / 1 copied.
+2022-05-03 21:30:03 INFO  MergeManagerImpl:687 - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2022-05-03 21:30:03 INFO  Merger:606 - Merging 1 sorted segments
+2022-05-03 21:30:03 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 672 bytes
+2022-05-03 21:30:03 INFO  MergeManagerImpl:754 - Merged 1 segments, 679 bytes to disk to satisfy reduce memory limit
+2022-05-03 21:30:03 INFO  MergeManagerImpl:784 - Merging 1 files, 683 bytes from disk
+2022-05-03 21:30:03 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2022-05-03 21:30:03 INFO  Merger:606 - Merging 1 sorted segments
+2022-05-03 21:30:03 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 672 bytes
+2022-05-03 21:30:03 INFO  LocalJobRunner:591 - 1 / 1 copied.
+2022-05-03 21:30:03 INFO  deprecation:1173 - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2022-05-03 21:30:03 INFO  Task:1038 - Task:attempt_local367735406_0001_r_000000_0 is done. And is in the process of committing
+2022-05-03 21:30:03 INFO  LocalJobRunner:591 - 1 / 1 copied.
+2022-05-03 21:30:03 INFO  Task:1199 - Task attempt_local367735406_0001_r_000000_0 is allowed to commit now
+2022-05-03 21:30:03 INFO  FileOutputCommitter:482 - Saved output of task 'attempt_local367735406_0001_r_000000_0' to file:/D:/Hadoop/Max_Hauteur/src/main/resources/output/_temporary/0/task_local367735406_0001_r_000000
+2022-05-03 21:30:03 INFO  LocalJobRunner:591 - reduce > reduce
+2022-05-03 21:30:03 INFO  Task:1158 - Task 'attempt_local367735406_0001_r_000000_0' done.
+2022-05-03 21:30:03 INFO  LocalJobRunner:325 - Finishing task: attempt_local367735406_0001_r_000000_0
+2022-05-03 21:30:03 INFO  LocalJobRunner:456 - reduce task executor complete.
+2022-05-03 21:30:04 INFO  Job:1360 - Job job_local367735406_0001 running in uber mode : false
+2022-05-03 21:30:04 INFO  Job:1367 -  map 100% reduce 100%
+2022-05-03 21:30:04 INFO  Job:1378 - Job job_local367735406_0001 completed successfully
+2022-05-03 21:30:04 INFO  Job:1385 - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=35476
+		FILE: Number of bytes written=560509
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=98
+		Map output records=97
+		Map output bytes=1611
+		Map output materialized bytes=683
+		Input split bytes=128
+		Combine input records=97
+		Combine output records=36
+		Reduce input groups=36
+		Reduce shuffle bytes=683
+		Reduce input records=36
+		Reduce output records=36
+		Spilled Records=72
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=460324864
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=16855
+	File Output Format Counters 
+		Bytes Written=508
